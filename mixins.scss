@@ -1,0 +1,7 @@
+@mixin valuesToRules($property, $values, $name: $property) {
+  @each $value in $values {
+    .#{$name}-#{$value} {
+      #{$property}: $value;
+    }
+  }
+}

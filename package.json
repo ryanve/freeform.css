@@ -1,0 +1,16 @@
+{
+  "name": "freeform.css",
+  "description": "css utility library",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Ryan Van Etten",
+  "homepage": "https://github.com/ryanve/freeform.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanve/freeform.css.git"
+  },
+  "keywords": ["css"],
+  "devDependencies": {
+    "grunt-sass": "^1.2.0"
+  }
+}
