@@ -156,6 +156,5 @@ clearfix floats
   vertical-align: middle; }
 ```
 
-
 ## License
 MIT
