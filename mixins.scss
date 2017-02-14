@@ -1,6 +1,6 @@
 @mixin freeformRules($property, $values, $name: $property) {
   @each $value in $values {
-    [data-freeform~="#{$name}-#{$value}"] {
+    [data-freeform~="#{$name}--#{$value}"] {
       #{$property}: $value;
     }
   }

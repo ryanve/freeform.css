@@ -19,15 +19,31 @@
   }
 }
 
-[data-freeform~="auto-margin"] {
+[data-freeform~="align--auto"] {
   margin-left: auto;
   margin-right: auto;
 }
 
-[data-freeform~="position-middle"] {
+[data-freeform~="align--x"] {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+[data-freeform~="align--y"] {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+[data-freeform~="align--xy"] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 @include freeformRules(position, (relative, absolute, fixed));
@@ -35,11 +51,11 @@
 @include freeformRules(clear, (left, right, both));
 @include freeformRules(display, (block, inline, inline-block, table, none));
 
-[data-freeform~="text-hidden"] {
+[data-freeform~="text--hidden"] {
   font: 0/0;
 }
 
-[data-freeform~="text-inherit"] {
+[data-freeform~="text--inherit"] {
   text-decoration: inherit;
   line-height: inherit;
   font-size: inherit;
