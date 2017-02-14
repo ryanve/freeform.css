@@ -1,117 +1,116 @@
 # freeform.css
-simple scalable CSS utility library for rapid prototyping
+Functional expressive CSS for rapid prototyping
 
-```sh
+```
 npm install freeform.css --save
 ```
 
-## Classes
+## API
 
-### `.clearfix`
+### clearfix
 clearfix floats
 ```css
-.clearfix::after {
+[data-freeform~="clearfix"]::after {
   clear: both;
   content: "";
   display: table; }
 ```
 
-### `.reset`
-
+### reset
 ```css
-.reset {
+[data-freeform~="reset"] {
   margin: 0;
   border: 0;
   padding: 0;
   list-style-type: none; }
 ```
 
-##### reset specific box-model properties
+### box model
 ```css
-.no-margin {
+[data-freeform~="no-margin"] {
   margin: 0; }
 
-.no-border {
+[data-freeform~="no-border"] {
   border: 0; }
 
-.no-padding {
+[data-freeform~="no-padding"] {
   padding: 0; }
 ```
 
-### `.auto-margin`
+### auto-margin
 ```css
-.auto-margin {
+[data-freeform~="auto-margin"] {
   margin-left: auto;
   margin-right: auto; }
 ```
 
-### `position`
+### position
 ```css
-.position-middle {
+[data-freeform~="position-middle"] {
   position: absolute;
   top: 50%;
   transform: translateY(-50%); }
 ```
 
 ```css
-.position-relative {
+[data-freeform~="position-relative"] {
   position: relative; }
 
-.position-absolute {
+[data-freeform~="position-absolute"] {
   position: absolute; }
 
-.position-fixed {
+[data-freeform~="position-fixed"] {
   position: fixed; }
 ```
 
-### `float`
+### float
 ```css
-.float-left {
-  float: left; }
+[data-freeform~="position-relative"] {
+  position: relative; }
 
-.float-right {
-  float: right; }
+[data-freeform~="position-absolute"] {
+  position: absolute; }
 
-.float-none {
-  float: none; }
+[data-freeform~="position-fixed"] {
+  position: fixed; }
 ```
 
-### `clear`
+### clear
 ```css
-.clear-left {
-  clear: left; }
+[data-freeform~="position-relative"] {
+  position: relative; }
 
-.clear-right {
-  clear: right; }
+[data-freeform~="position-absolute"] {
+  position: absolute; }
 
-.clear-both {
-  clear: both; }
+[data-freeform~="position-fixed"] {
+  position: fixed; }
 ```
 
 ### `display`
 ```css
-.display-block {
+[data-freeform~="display-block"] {
   display: block; }
 
-.display-inline {
+[data-freeform~="display-inline"] {
   display: inline; }
 
-.display-inline-block {
+[data-freeform~="display-inline-block"] {
   display: inline-block; }
 
-.display-table {
+[data-freeform~="display-table"] {
   display: table; }
 
-.display-none {
+[data-freeform~="display-none"] {
   display: none; }
 ```
 
 ### text
 ```css
-.text-hidden {
+[data-freeform~="text-hidden"] {
   font: 0/0; }
 
-.text-inherit {
+[data-freeform~="text-inherit"] {
   text-decoration: inherit;
   line-height: inherit;
   font-size: inherit;
@@ -120,25 +119,25 @@ clearfix floats
   font-family: inherit;
   font-variant: inherit; }
 
-.text-lighter {
+[data-freeform~="text-lighter"] {
   font-weight: lighter; }
 
-.text-bold {
+[data-freeform~="text-bold"] {
   font-weight: bold; }
 
-.text-bolder {
+[data-freeform~="text-bolder"] {
   font-weight: bolder; }
 
-.text-center {
+[data-freeform~="text-center"] {
   text-align: center; }
 
-.text-left {
+[data-freeform~="text-left"] {
   text-align: left; }
 
-.text-right {
+[data-freeform~="text-right"] {
   text-align: right; }
 
-.text-middle {
+[data-freeform~="text-middle"] {
   vertical-align: middle; }
 ```
 
