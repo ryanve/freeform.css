@@ -41,6 +41,9 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
 
+[data-freeform~="position--static"] {
+  position: static; }
+
 [data-freeform~="position--relative"] {
   position: relative; }
 
@@ -49,6 +52,9 @@
 
 [data-freeform~="position--fixed"] {
   position: fixed; }
+
+[data-freeform~="position--sticky"] {
+  position: sticky; }
 
 [data-freeform~="float--left"] {
   float: left; }

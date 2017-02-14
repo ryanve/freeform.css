@@ -31,6 +31,15 @@ Supply space-separated values to `[data-freeform]`
 <div data-freeform="align--xy">align both</div>
 ```
 
+### position
+```
+<p data-freeform="position--static">
+<p data-freeform="position--relative">
+<p data-freeform="position--absolute">
+<p data-freeform="position--fixed">
+<p data-freeform="position--sticky">
+```
+
 ### float
 ```
 <p data-freeform="float--left">

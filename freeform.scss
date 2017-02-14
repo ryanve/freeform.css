@@ -46,7 +46,7 @@
           transform: translate(-50%, -50%);
 }
 
-@include freeformRules(position, (relative, absolute, fixed));
+@include freeformRules(position, (static, relative, absolute, fixed, sticky));
 @include freeformRules(float, (left, right, none));
 @include freeformRules(clear, (left, right, both));
 @include freeformRules(display, (block, inline, inline-block, table, none));
