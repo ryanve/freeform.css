@@ -8,7 +8,6 @@ npm install freeform.css --save
 ## API
 
 ### clearfix
-clearfix floats
 ```css
 [data-freeform~="clearfix"]::after {
   clear: both;
