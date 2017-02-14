@@ -87,4 +87,3 @@
 
 @include freeformRules(font-weight, (lighter, bold, bolder), text);
 @include freeformRules(text-align, (center, left, right), text);
-@include freeformRules(vertical-align, (middle), text);

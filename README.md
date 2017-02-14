@@ -81,5 +81,4 @@ Supply space-separated values to `[data-freeform]`
 <p data-freeform="text--center">
 <p data-freeform="text--left">
 <p data-freeform="text--right">
-<p data-freeform="text--middle">
 ```
