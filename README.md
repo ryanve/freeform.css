@@ -7,21 +7,6 @@ npm install freeform.css --save
 
 ## Classes
 
-### `.aid`
-hide content for screenreaders
-```css
-.aid {
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  border: 0;
-  margin: -1px;
-  padding: 0;
-  white-space: nowrap; }
-```
-
 ### `.clearfix`
 clearfix floats
 ```css
