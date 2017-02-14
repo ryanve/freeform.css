@@ -30,10 +30,10 @@
   transform: translateY(-50%);
 }
 
-@include valuesToRules(position, (relative, absolute, fixed), position);
-@include valuesToRules(float, (left, right, none));
-@include valuesToRules(clear, (left, right, both));
-@include valuesToRules(display, (block, inline, inline-block, table, none));
+@include freeformRules(position, (relative, absolute, fixed));
+@include freeformRules(float, (left, right, none));
+@include freeformRules(clear, (left, right, both));
+@include freeformRules(display, (block, inline, inline-block, table, none));
 
 [data-freeform~="text-hidden"] {
   font: 0/0;
@@ -49,6 +49,6 @@
   font-variant: inherit;
 }
 
-@include valuesToRules(font-weight, (lighter, bold, bolder), text);
-@include valuesToRules(text-align, (center, left, right), text);
-@include valuesToRules(vertical-align, (middle), text);
+@include freeformRules(font-weight, (lighter, bold, bolder), text);
+@include freeformRules(text-align, (center, left, right), text);
+@include freeformRules(vertical-align, (middle), text);
