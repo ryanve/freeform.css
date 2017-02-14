@@ -87,7 +87,7 @@ clearfix floats
   clear: both; }
 ```
 
-### `display`
+### display
 ```css
 [data-freeform~="display-block"] {
   display: block; }
