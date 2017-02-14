@@ -6,7 +6,7 @@
   "author": "Ryan Van Etten",
   "homepage": "https://github.com/ryanve/freeform.css",
   "scripts": {
-    "build": "node-sass _freeform.scss freeform.css"
+    "build": "node-sass freeform.scss freeform.css"
   },
   "repository": {
     "type": "git",
