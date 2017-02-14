@@ -25,10 +25,10 @@ Supply space-separated values to `[data-freeform]`
 
 ### align
 ```
-<div data-freeform="align--auto">align auto</div>
-<div data-freeform="align--x">align horizontal</div>
-<div data-freeform="align--y">align vertical</div>
-<div data-freeform="align--xy">align both</div>
+<p data-freeform="align--auto">align auto
+<p data-freeform="align--x">align horizontal
+<p data-freeform="align--y">align vertical
+<p data-freeform="align--xy">align both
 ```
 
 ### pin
