@@ -18,7 +18,8 @@ hide content for screenreaders
   height: 1px;
   border: 0;
   margin: -1px;
-  padding: 0; }
+  padding: 0;
+  white-space: nowrap; }
 ```
 
 ### `.clearfix`
@@ -70,10 +71,10 @@ clearfix floats
 ```css
 .position-relative {
   position: relative; }
-  
+
 .position-absolute {
   position: absolute; }
-  
+
 .position-fixed {
   position: fixed; }
 ```
