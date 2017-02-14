@@ -14,7 +14,7 @@
 }
 
 @each $property in (margin, border, padding) {
-  [data-freeform~="no-#{$property}"] {
+  [data-freeform~="no--#{$property}"] {
     #{$property}: 0;
   }
 }

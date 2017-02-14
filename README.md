@@ -18,9 +18,9 @@ Supply space-separated values to `[data-freeform]`
 <ul data-freeform="reset">
 ```
 
-### box model
+### no
 ```
-<fieldset data-freeform="no-margin no-border no-padding">
+<fieldset data-freeform="no--margin no--border no--padding">
 ```
 
 ### align
