@@ -46,6 +46,26 @@
           transform: translate(-50%, -50%);
 }
 
+[data-freeform~="pin--top"] {
+  position: absolute;
+  top: 0;
+}
+
+[data-freeform~="pin--bottom"] {
+  position: absolute;
+  bottom: 0;
+}
+
+[data-freeform~="pin--left"] {
+  position: absolute;
+  left: 0;
+}
+
+[data-freeform~="pin--right"] {
+  position: absolute;
+  right: 0;
+}
+
 @include freeformRules(position, (static, relative, absolute, fixed, sticky));
 @include freeformRules(float, (left, right, none));
 @include freeformRules(clear, (left, right, both));
