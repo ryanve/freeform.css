@@ -65,14 +65,14 @@ clearfix floats
 
 ### float
 ```css
-[data-freeform~="position-relative"] {
-  position: relative; }
+[data-freeform~="float-left"] {
+  float: left; }
 
-[data-freeform~="position-absolute"] {
-  position: absolute; }
+[data-freeform~="float-right"] {
+  float: right; }
 
-[data-freeform~="position-fixed"] {
-  position: fixed; }
+[data-freeform~="float-none"] {
+  float: none; }
 ```
 
 ### clear
