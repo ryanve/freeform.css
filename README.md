@@ -140,6 +140,3 @@ clearfix floats
 [data-freeform~="text-middle"] {
   vertical-align: middle; }
 ```
-
-## License
-MIT
